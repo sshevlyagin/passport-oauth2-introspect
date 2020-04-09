@@ -1,0 +1,13 @@
+README.md
+docs/
+examples/
+reports/
+support/
+test/
+test.js
+test-redis.js
+.DS_Store
+.npmignore
+node_modules/
+npm-debug.log
+.git*
