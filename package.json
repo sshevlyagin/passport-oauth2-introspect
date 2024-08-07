@@ -34,19 +34,26 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "morgan": "^1.10.0",
-    "passport": "^0.4.0",
+    "passport": "^0.7.0",
     "passport-strategy": "1.x.x",
     "request": "^2.83.0"
   },
   "devDependencies": {
     "express": "4.x.x",
-    "request-debug": "^0.2.0"
+    "body-parser": "^1.20.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.7.0",
+    "morgan": "^1.10.0",
+    "nyc": "^17.0.0",
+    "passport-http": "^0.3.0",
+    "request-debug": "^0.2.0",
+    "should": "^13.2.3",
+    "should-http": "^0.1.1"
   },
   "engines": {
     "node": ">= 6.10.0"
   },
   "scripts": {
-    "test": "node run test.js"
+    "test": "node test.js"
   }
 }
