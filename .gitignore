@@ -1,4 +1,6 @@
 .DS_Store
 node_modules/
 npm-debug.log
-test-*.log
+test/*.log
+.nyc_output/
+coverage/
