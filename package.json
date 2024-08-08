@@ -1,7 +1,7 @@
 {
-  "name": "passport-bearer-introspect",
+  "name": "passport-oauth2-introspect",
   "version": "1.2.1",
-  "description": "HTTP Bearer introspection strategy for Passport.",
+  "description": "OAuth 2.0 Bearer Token introspection strategy for Passport.",
   "keywords": [
     "passport",
     "auth",
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/scottylogan/passport-bearer-introspect.git"
+    "url": "git://github.com/scottylogan/passport-oauth2-introspect.git"
   },
   "bugs": {
-    "url": "http://github.com/scottylogan/passport-bearer-introspect/issues"
+    "url": "http://github.com/scottylogan/passport-oauth2-introspect/issues"
   },
   "author": {
     "name": "Scotty Logan",
