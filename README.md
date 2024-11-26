@@ -18,6 +18,7 @@ integrated into any application or framework that supports
 [Express](http://expressjs.com/).
 
 ## Install
+Note: https://www.npmjs.com/package/passport-bearer-introspect is an OLD version of this module that should not be installed.
 
     $ npm install passport-oauth2-introspect
 
