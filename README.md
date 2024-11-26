@@ -1,4 +1,4 @@
-# passport-bearer-introspect
+# passport-oauth2-introspect
 
 Bearer token introspection authentication strategy for
 [Passport](http://passportjs.org/).
@@ -19,7 +19,7 @@ integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-bearer-introspect
+    $ npm install passport-oauth2-introspect
 
 ## Usage
 
@@ -31,7 +31,7 @@ using a bearer token.
 The strategy requires configuration options to be provided at initialization:
 
     var passport  = require('passport'),
-        IntrospectStrategy  = require('passport-bearer-introspect').Strategy;
+        IntrospectStrategy  = require('passport-oauth2-introspect').Strategy;
   
     passport.use(new IntrospectStrategy({
       client_id:      'myapp.example.com',
@@ -112,7 +112,7 @@ options, then check scopes in the endpoint handler:
 Alternatively, the strategy can be used multiple times:
 
     var passport  = require('passport'),
-        IntrospectStrategy  = require('passport-bearer-introspect').Strategy;
+        IntrospectStrategy  = require('passport-oauth2-introspect').Strategy;
 
     passport.use('read', new IntrospectStrategy({
       client_id:      'myapp.example.com',

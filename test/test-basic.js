@@ -111,7 +111,7 @@ describe('Tests', function() {
     
     authz.use(morgan(logFormat, { stream: fs.createWriteStream('test/authz.log', { flags: 'a' }) }));
 
-    authz.use(bodyParser.urlencoded());
+    authz.use(bodyParser.urlencoded({ extended: true }));
 
     authz.all('/introspect',
             passport.authenticate('basic', { session: false }),
